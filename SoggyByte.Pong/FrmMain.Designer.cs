@@ -48,21 +48,21 @@
       // ctxMenu_miStart
       // 
       this.ctxMenu_miStart.Name = "ctxMenu_miStart";
-      this.ctxMenu_miStart.Size = new System.Drawing.Size(152, 22);
+      this.ctxMenu_miStart.Size = new System.Drawing.Size(102, 22);
       this.ctxMenu_miStart.Text = "Start";
       this.ctxMenu_miStart.Click += new System.EventHandler(this.ctxMenu_miStart_Click);
       // 
       // ctxMenu_miReset
       // 
       this.ctxMenu_miReset.Name = "ctxMenu_miReset";
-      this.ctxMenu_miReset.Size = new System.Drawing.Size(152, 22);
+      this.ctxMenu_miReset.Size = new System.Drawing.Size(102, 22);
       this.ctxMenu_miReset.Text = "Reset";
       this.ctxMenu_miReset.Click += new System.EventHandler(this.ctxMenu_miReset_Click);
       // 
       // ctxMenu_miQuit
       // 
       this.ctxMenu_miQuit.Name = "ctxMenu_miQuit";
-      this.ctxMenu_miQuit.Size = new System.Drawing.Size(152, 22);
+      this.ctxMenu_miQuit.Size = new System.Drawing.Size(102, 22);
       this.ctxMenu_miQuit.Text = "Quit";
       this.ctxMenu_miQuit.Click += new System.EventHandler(this.ctxMenu_miQuit_Click);
       // 
@@ -79,6 +79,7 @@
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "SoggyByte.Pong";
       this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmMain_KeyDown);
+      this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FrmMain_MouseDown);
       this.ctxMenu.ResumeLayout(false);
       this.ResumeLayout(false);
 

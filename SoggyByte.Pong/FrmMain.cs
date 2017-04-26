@@ -14,6 +14,7 @@ namespace SoggyByte.Pong
     private int Player1Score;
     private int Player2Score;
 
+
     public FrmMain()
     {
       InitializeComponent();
@@ -23,14 +24,18 @@ namespace SoggyByte.Pong
       this.PaddleRight = new Paddle(false, this);
 
       this.TimerTrigger = new Timer();
-      this.TimerTrigger.Interval = (int)((1 / (decimal)29) * 1000m);
-      this.TimerTrigger.Tick += this.TimerTrigger_Tick;
+      this.TimerTrigger.Interval = (int)((1 / (decimal)60) * 1000m);
+      this.TimerTrigger.Tick += (s, ea) => this.Invalidate();
       this.TimerTrigger.Enabled = true;
     }
 
-    private void TimerTrigger_Tick(object sender, EventArgs e)
+    private void FrmMain_MouseDown(object sender, MouseEventArgs e)
     {
-      this.Invalidate();
+      if (e.Button == MouseButtons.Left)
+      {
+        Win32.ReleaseCapture();
+        Win32.SendMessage(this.Handle, Win32.WM_NCLBUTTONDOWN, Win32.HT_CAPTION, 0);
+      }
     }
 
     protected override void OnPaint(PaintEventArgs e)
