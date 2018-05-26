@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Drawing;
 
-namespace SoggyByte.Pong
+namespace SB.Pong
 {
   public class Ball
   {

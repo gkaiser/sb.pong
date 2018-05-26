@@ -1,4 +1,4 @@
-﻿namespace SoggyByte.Pong
+﻿namespace SB.Pong
 {
   partial class FrmMain
   {
@@ -77,7 +77,7 @@
       this.KeyPreview = true;
       this.Name = "FrmMain";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "SoggyByte.Pong";
+      this.Text = "SB.Pong";
       this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmMain_KeyDown);
       this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FrmMain_MouseDown);
       this.ctxMenu.ResumeLayout(false);

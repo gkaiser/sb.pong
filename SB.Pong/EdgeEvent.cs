@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SoggyByte.Pong
+namespace SB.Pong
 {
   public enum EdgeEvent
   {

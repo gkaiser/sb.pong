@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DCB0100D-4A1A-479B-B36C-7AB360A69AAB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SoggyByte.Pong</RootNamespace>
-    <AssemblyName>SoggyByte.Pong</AssemblyName>
+    <RootNamespace>SB.Pong</RootNamespace>
+    <AssemblyName>SB.Pong</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

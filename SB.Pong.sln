@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoggyByte.Pong", "SoggyByte.Pong\SoggyByte.Pong.csproj", "{DCB0100D-4A1A-479B-B36C-7AB360A69AAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.Pong", "SB.Pong\SB.Pong.csproj", "{DCB0100D-4A1A-479B-B36C-7AB360A69AAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

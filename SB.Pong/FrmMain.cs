@@ -3,7 +3,7 @@ using System.Linq;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace SoggyByte.Pong
+namespace SB.Pong
 {
   public partial class FrmMain : Form
   {

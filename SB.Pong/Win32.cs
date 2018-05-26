@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SoggyByte.Pong
+namespace SB.Pong
 {
   internal static class Win32
   {
